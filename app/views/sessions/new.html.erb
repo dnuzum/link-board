@@ -1,12 +1,8 @@
 <h1>Login</h1>
 
-<%= form_for :user do |f| %>
-
-  <%= f.label :email %>
-  <%= f.text_field :email %>
-
-  <%= f.label :password %>
+<%= bootstrap_form_for :user do |f| %>
+  <%= f.email_field :email %>
   <%= f.password_field :password %>
 
-  <%= f.submit 'Login' %>
+  <%= f.primary 'Login' %>
 <% end %>

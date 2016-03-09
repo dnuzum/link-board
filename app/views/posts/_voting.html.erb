@@ -1,0 +1,5 @@
+<div class="voting">
+<%= link_to '<span class="glyphicon glyphicon-arrow-up"></span>'.html_safe, post_upvote_path(post), :method => :post %>
+<strong><%= post.votes.inject(0) {|sum, v| sum + v.value } %></strong>
+<%= link_to '<span class="glyphicon glyphicon-arrow-down"></span>'.html_safe, post_downvote_path(post), :method => :post %>
+</div>
