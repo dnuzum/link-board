@@ -14,7 +14,22 @@
  *= require_self
  */
 
- .navbar {
+$navbar-default-bg: #003F85;
+$navbar-default-color: #69BE28;
+$navbar-default-link-color: #69BE28;
+$font-family-sans-serif: Lobster;
+$well-bg: #69BE28;
+$border-radius-base: 0;
+$well-default-color: #003F85;
+
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+
+ p {
+  font-family: Arial;
+ }
+
+/* .navbar {
   background-color: #003F85;
   border-color: transparent;
  }
@@ -35,3 +50,5 @@
   background-color: #003F85;
   color: #69BE28;
  }
+*/
+

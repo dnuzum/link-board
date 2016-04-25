@@ -30,6 +30,8 @@ gem 'bootstrap_form'
 gem 'email_validator'
 gem 'validate_url'
 
+gem 'bootstrap-sass'
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 
